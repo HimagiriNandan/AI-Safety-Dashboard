@@ -1,12 +1,70 @@
-# React + Vite
+# AI Safety Incident Dashboard
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Overview
 
-Currently, two official plugins are available:
+The AI Safety Incident Dashboard is an interactive web component that allows users to view and manage a list of AI safety incidents. It supports filtering and sorting incidents by severity and reported date, displays detailed information about each incident, and allows users to report new incidents.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-## Expanding the ESLint configuration
+Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+1. Display a list of AI safety incidents with Title, Severity, and Reported Date.
+2. Filtering controls to filter the incidents by Severity (All, Low, Medium, High).
+3. Sorting controls to sort the list by Reported Date (Newest First, Oldest First).
+4. Arrow buttons that toggles the visibility of a full Description for each incident.
+5. Report New Incident form that lets users submit new incidents with a Title, Description, and Severity.
+6. Responsive Layout using Flexbox and clean styling with hover effects.
+
+
+Tech Stack
+
+HTML: Used for the basic structure of the dashboard.
+CSS: Used for styling and creating a responsive layout with Flexbox.
+JavaScript: Used for interactivity and state management in the dashboard.
+React: Framework for building the UI and handling component-based architecture.
+
+
+Setup Instructions
+
+Prerequisites
+
+Node.js (v14 or higher)
+npm (for package management)
+
+
+Install Dependencies
+
+1. clone this repository to your local machine: git clone https://github.com/HimagiriNandan/ai-safety-dashboard.git
+2. Navigate to the project directory: cd ai-safety-dashboard
+3. Install the project dependencies: npm install
+4. Run project in your local machine: npm run dev
+   
+
+Design Decisions
+
+State Management:
+
+For local state management, React's useState hook was used to handle the list of incidents, as well as the toggling of incident details and form visibility.
+Global state management was implemented using React’s useContext to share the incident data across components, making it easier to manage the state globally without the need for prop drilling.
+
+Component Structure:
+
+The components were organized into smaller, reusable components for better maintainability and readability. These include:
+
+IncidentList: Manages the display of the list of incidents.
+ReportIncidentForm: Handles the submission of new incidents.
+FilterSortControl: Contains controls for filtering and sorting the incidents.
+
+The project’s structure is divided into separate folders for better organization:
+
+components: Contains all React component files.
+styles: Holds all the CSS/SCSS styles.
+context: Stores the useContext provider and global state logic.
+
+Flexbox Layout: The layout was designed using Flexbox to ensure the dashboard remains responsive across various screen sizes, providing a smooth user experience on both desktops and mobile devices.
+
+Input Validation: Basic input validation was added to ensure that the Title, Description, and Severity fields are not empty before allowing the form to be submitted. This validation ensures that all necessary data is provided for each incident.
+
+Contributing
+Feel free to fork this repository and create pull requests if you have any suggestions or improvements. All contributions are welcome!
+
+###################### Thanks for visiting ################################
