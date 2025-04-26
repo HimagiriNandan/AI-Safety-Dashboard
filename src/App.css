@@ -1,0 +1,13 @@
+*{
+  font-family: arial, sans-serif;
+}
+.main-heading{
+  font-size: 30px;
+  text-align: center;
+}
+
+@media (max-width: 778px){
+  .main-heading{
+    font-size: 25px;
+  }
+}

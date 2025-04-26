@@ -1,0 +1,32 @@
+.filter-sort-controls {
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+.control {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+
+@media (max-width: 778px){
+  .filter-sort-controls {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    padding-left: 10%;
+    width: 100%;
+    gap: 1rem;
+  }
+  .control{
+    display: flex;
+    gap: 15px;
+  }
+  .control-label{
+    font-size: 15px;
+  }
+}

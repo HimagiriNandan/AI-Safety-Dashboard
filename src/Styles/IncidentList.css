@@ -1,0 +1,76 @@
+.incident-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  padding: 2% 10% 2% 10%;
+}
+
+.incident-item {
+  background: #f4f4f9;
+  padding: 20px;
+  border-radius: 10px;
+  align-self: center;
+  width: 80%;
+}
+
+.incident-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.severity {
+  padding: 0.25rem 0.5rem;
+  border-radius: 4px;
+}
+
+.severity-low {
+  background-color: #d4edda;
+}
+
+.severity-medium {
+  background-color: #fff3cd;
+}
+
+.severity-high {
+  background-color: #f8d7da;
+}
+
+.incident-item h3, p{
+  padding: 0px;
+}
+
+.incident-date{
+  padding: 0px;
+  margin: 0px;
+}
+
+.incident-ts{
+  display: flex;
+  gap: 20px;
+}
+
+.arrow{
+  cursor: pointer;
+}
+
+@media (max-width: 778px){
+  .incident-header{
+    display: flex;
+    justify-content: space-between;
+
+  }
+  .incident-title{
+    font-size: 15px;
+  }
+  .severity{
+    font-size: 15px;
+  }
+  .incident-ts{
+    gap: 10px;
+  }
+  .incident-item{
+    width: 100%;
+  }
+}
