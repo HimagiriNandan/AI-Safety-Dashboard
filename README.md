@@ -1,5 +1,7 @@
 # AI Safety Incident Dashboard
 
+Live link: https://ai-safety-dashboard-six.vercel.app/
+
 Overview
 
 The AI Safety Incident Dashboard is an interactive web component that allows users to view and manage a list of AI safety incidents. It supports filtering and sorting incidents by severity and reported date, displays detailed information about each incident, and allows users to report new incidents.
