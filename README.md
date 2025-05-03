@@ -70,10 +70,10 @@ Feel free to fork this repository and create pull requests if you have any sugge
 
 Desktop View:
 
-![Screenshot_20250503_122946](https://github.com/user-attachments/assets/cd2efa4d-f3dd-4010-bad1-5fe6d7890054)
-
-
 ![Screenshot_20250503_122930](https://github.com/user-attachments/assets/2f1d52a0-5bf0-4b2b-9671-f3d606becf36)
+
+
+![Screenshot_20250503_122946](https://github.com/user-attachments/assets/cd2efa4d-f3dd-4010-bad1-5fe6d7890054)
 
 
 Mobile view:
@@ -84,4 +84,4 @@ Mobile view:
 
 
 
-###################### Thanks for visiting ################################
+############################# Thanks for visiting ################################
