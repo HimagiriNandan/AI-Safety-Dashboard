@@ -67,4 +67,21 @@ Input Validation: Basic input validation was added to ensure that the Title, Des
 Contributing
 Feel free to fork this repository and create pull requests if you have any suggestions or improvements. All contributions are welcome!
 
+
+Desktop View:
+
+![Screenshot_20250503_122946](https://github.com/user-attachments/assets/cd2efa4d-f3dd-4010-bad1-5fe6d7890054)
+
+
+![Screenshot_20250503_122930](https://github.com/user-attachments/assets/2f1d52a0-5bf0-4b2b-9671-f3d606becf36)
+
+
+Mobile view:
+
+![{0F1FD7CB-73FB-47C7-B5E4-01089B4660EF}](https://github.com/user-attachments/assets/357589cd-01f4-481b-a195-7b7f1ae0886d)
+
+
+
+
+
 ###################### Thanks for visiting ################################
